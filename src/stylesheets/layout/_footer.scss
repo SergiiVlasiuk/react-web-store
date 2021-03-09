@@ -1,0 +1,16 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the footer of the site/application.
+// -----------------------------------------------------------------------------
+footer {
+    background: lightgrey;
+    // display: flex;
+    // justify-content: center;
+    min-height: 30px;
+}
+
+.footer-row {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

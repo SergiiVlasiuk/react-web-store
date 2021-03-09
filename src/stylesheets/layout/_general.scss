@@ -1,0 +1,11 @@
+.content-wrap {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+    // padding: 60px 0;
+}
+
+section .content-wrap {
+    min-height: calc(100vh - 130px - 30px);
+    padding: 15px 0;
+}

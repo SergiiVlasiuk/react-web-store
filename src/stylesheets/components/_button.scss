@@ -1,0 +1,21 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+.card__button {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.button {
+    cursor: pointer;
+}
+
+.card-item__buy-btn {
+    cursor: pointer;
+    background-color: darkgray;
+    color: lightgrey;
+    border-radius: 5px;
+    text-align: center;
+    padding: 6px 0;
+}
