@@ -1,13 +1,19 @@
 import React from 'react'
-import { productList } from '../../../data/products'
+import { connect } from 'react-redux'
 import Product from './Product'
 
-const ProductList = () => {
+const ProductList = ({ syncProducts }) => {
   return (
     <div className='card-container'>
-      {productList.map(product => <Product product={product} key={product.id} />)}
+      {syncProducts.map(product => <Product product={product} key={product.id} />)}
     </div>
   )
 }
 
-export default ProductList
+const mapStateToProps = state => {
+  return {
+    syncProducts: state.products.products
+  }
+}
+
+export default connect(mapStateToProps, null)(ProductList)

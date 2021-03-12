@@ -4,6 +4,8 @@ import App from './App'
 import reportWebVitals from './reportWebVitals'
 import Root from './Root'
 import './stylesheets/main.scss'
+// import rootReducer from './services/rootReducer'
+// import { compose, createStore } from 'redux'
 
 ReactDOM.render(
   <Root>
