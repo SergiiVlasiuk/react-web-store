@@ -4,9 +4,9 @@ import Product from './Product'
 
 const ProductList = ({ syncProducts }) => {
   return (
-    <div className='card-container'>
+    <ul className='card-container'>
       {syncProducts.map(product => <Product product={product} key={product.id} />)}
-    </div>
+    </ul>
   )
 }
 

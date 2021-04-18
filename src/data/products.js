@@ -1,5 +1,22 @@
 export default [
   {
+    "id": 0,
+    "name": "fake",
+    "description": "fake product description",
+    "type": "scirt",
+    "availableSizes": [
+      "XL",
+      "XXL"
+    ],
+    "availableColors": [
+      "darkgrey",
+      "lightgreen"
+    ],
+    "price": 340.00,
+    "currencyId": "UAH",
+    "currencyFormat": "₴"
+  },
+  {
     "id": 1,
     "name": "sun",
     "description": "sun scirt description",
