@@ -3,7 +3,7 @@ import React from 'react'
 const ProductFilter = () => {
   return (
     <div>
-      filter
+      filter TODO
     </div>
   )
 }

@@ -10,18 +10,18 @@ const Product = ({ product, addToCart }) => {
   console.log('addToCart: ', addToCart
   )
   return (
-    <li>
+    <div>
       <div className='card-item'>
-        <div className="card-item__name">{name}</div>
-        <div className='card-item__description'>{description}</div>
+        <div className="card-item__name card-item_text">{name}</div>
+        <div className='card-item__description card-item_text'>{description}</div>
         <div className="card-item_image">
           <img src={image} />
         </div>
-        <div className="card-item__price">Price: {price} {currencyFormat}</div>
+        <div className="card-item__price card-item_text">Price: {price} {currencyFormat}</div>
         {/* <div className="card-item__buy-btn" onClick={() => console.log('clicked', id)}>Add to cart</div> */}
         <div className="card-item__buy-btn" onClick={() => addToCart(product)}>Add to cart</div>
       </div>
-    </li>
+    </div>
   )
 }
 
